@@ -1,0 +1,110 @@
+header
+{
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+	background-image: linear-gradient(315deg, #000000 0%, #191919 74%);
+	color: #999999;
+}
+
+a:hover
+{
+	color: #C1C1C1;
+	text-decoration: none;
+}
+
+.icon-size
+{
+	font-size: 20px;
+}
+
+.icon-size1
+{
+	font-size: 30px;
+}
+
+.icon-size2
+{
+	font-size: 45px;
+}
+
+.fantasy
+{
+	font-family: fantasy;
+}
+
+body
+{
+	height: auto;
+}	
+
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+h3
+{
+	margin-bottom: 0px;
+}
+
+.com-lg-4
+{
+	padding: 0;
+}
+
+.row
+{
+	margin: 0;
+}
+
+.col-md-12
+{
+	padding: 0;
+}
+
+footer
+{
+	height: auto;
+	background-color: #5ca0f2;
+	background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
+}
+
+.blu
+{
+	color: #0202af;
+}
+
+.navbar
+{
+	padding: 5px;
+}
+
+.bdy
+{
+	height: 800px;
+	background-image: url("../images/abg.jpg");
+	background-size: fill;
+}
+
+.cnta
+{
+	background: #F3F3F3;
+	height: inherit;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 768px)
+ {
+ 	.bdy
+ 	{
+ 		height: 1060px;
+ 		background-image: url("../images/abgmm.jpg");
+		background-size: fill;
+ 	}
+
+ 	.container{
+ 		width: 70%;
+ 	}
+ }
